@@ -1,0 +1,55 @@
+.btn2 {
+    display: inline-flex;
+    align-items: center;
+    /* vertical alignment of items */
+    line-height: 16px;
+    padding: 5px 13px;
+    border: 1px solid #CECECE;
+    border-radius: 15px;
+    color: #fff;
+    width: 100%;
+}
+
+.btnWhatsAppBG {
+    background: green;
+}
+
+.btnOfferAppBG {
+    background: #e27f0d;
+}
+
+.btnAllTimeBG {
+    background: #d46681;
+}
+
+.btnPhoneBG {
+    background: #11d2f0;
+}
+
+.pageIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.btnTextAlign {
+    margin-left: 24%;
+}
+
+.mainDiv {
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+.topHeightByScreen{
+    padding-top: 16%;
+}
+
+@media (max-width: 768px) {
+    .topHeightByScreen {
+      padding-top: 8%; 
+    }
+  }
+
+  .imgLogo{
+    border-radius: 92px;
+  }
+ 
