@@ -10,7 +10,7 @@ function App() {
 
   const openWhatsApp = () => {
     
-    const phoneNumber = '8875620002';
+    const phoneNumber = '+918875620002';
     const message = 'Hello%20RcExchange';
 
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
