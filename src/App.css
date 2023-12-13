@@ -26,6 +26,11 @@
     background: #11d2f0;
 }
 
+.btnCricketBG{
+    background-color: limegreen;
+}
+
+
 .pageIcon {
     display: flex;
     justify-content: center;
@@ -43,13 +48,19 @@
     padding-top: 16%;
 }
 
+
 @media (max-width: 768px) {
     .topHeightByScreen {
       padding-top: 8%; 
     }
+    .imgLogo{
+      
+        margin-top: 0%  !important;
+      }
   }
 
   .imgLogo{
     border-radius: 92px;
+    margin-top: 10%;
   }
  
